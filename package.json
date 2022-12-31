@@ -30,7 +30,7 @@
 		"clean": "gatsby clean",
 		"typecheck": "tsc --noEmit",
 		"prepare": "husky install",
-		"commit": "git add . && yarn git-cz",
+		"commit": "yarn git-cz",
 		"update": "yarn upgrade && yarn syncyarnlock -s -k"
 	},
 	"dependencies": {
