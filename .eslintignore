@@ -8,3 +8,5 @@ yarn.lock
 
 *.d.ts
 *.config.ts
+gatsby-*.js
+gatsby-*.ts
