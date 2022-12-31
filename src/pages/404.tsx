@@ -1,12 +1,14 @@
 import { HeadFC, Link, PageProps } from 'gatsby';
 import { FC } from 'react';
 
+import { AppLayout } from '../layouts';
+
 const NotFoundPage: FC<PageProps> = () => {
 	return (
-		<div>
+		<AppLayout>
 			404 - NotFoundPage <br />
 			<Link to="/">Go home</Link>.
-		</div>
+		</AppLayout>
 	);
 };
 
